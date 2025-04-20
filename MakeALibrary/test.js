@@ -12,7 +12,6 @@ const { randomNumber, getColumn } = require("./helpers.js");
 global.randomNumber = randomNumber;
 global.getColumn = getColumn;
 
-
 console.log("Random Index:", getIndex());
 console.log("Name at Index 2:", getName(2));
 console.log("Check Calories (Index 1, Guess 300):", checkCalories(1, 300));

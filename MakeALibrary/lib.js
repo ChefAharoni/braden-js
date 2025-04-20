@@ -14,7 +14,6 @@ function getIndex() {
   return index;
 }
 
-
 /**
  * Returns the food name at a given index.
  * @param {number} index - The position in the nameList to retrieve.
@@ -47,8 +46,6 @@ function checkCalories(index, guess) {
     return false; // The guess is incorrect
   }
 }
-
-
 
 /**
  * Counts how many times a given calorie value appears in the entire dataset.
